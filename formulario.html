@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obtener Valores Formulario</title>
+	<script type="text/javascript" src="js/valores.js"></script>
+</head>
+<body>
+	<h2>Formulario Datos</h2>
+	<form action="" method="post">
+		<label for="">Nombre:</label>
+		<input type="text" name="nombre" id="nombre">
+		<br>
+		<label for="">Apellido:</label>
+		<input type="text" name="apellido" id="apellido">
+		<br>
+		<label for="">Direccion:</label>
+		<input type="text" name="direccion" id="direccion">
+		<br>
+		<label for="">Edad:</label>
+		<input type="text" name="edad" id="edad">
+		<br><br><br>
+		
+
+		<input type="radio" value="si" name="pregunta" id="pregunta_si"/> SI
+		<input type="radio" value="no" name="pregunta" id="pregunta_no"/> NO
+		<input type="radio" value="nsnc" name="pregunta" id="pregunta_nsnc"/> NS/NC
+
+		<input type="submit" name="Enviar" onclick="mostrarValores()">
+	</form>
+
+</body>
+
+
+</html>
